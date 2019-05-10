@@ -6,13 +6,13 @@
 #'
 #' @return NULL
 #'
-#' @examples  RicardoFunctions('073.835.475-75')
+#' @examples  validar_cpfs('073.835.475-75')
 #'
-#' @export RicardoFunctions
+#' @export validar_cpfs
 #'
 
 
-RicardoFunctions=function(vetor_cpfs)
+validar_cpfs=function(vetor_cpfs)
 {
   retorno=character(length = length(vetor_cpfs))
   for(i in 1:length(vetor_cpfs))
