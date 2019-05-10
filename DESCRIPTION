@@ -1,4 +1,4 @@
-Package: RicardoFunctions
+Package: validar_cpfs
 Title: This package resume some useful and idiot functions created by ricardo Castro
 Version: 0.1
 Authors@R: person("Ricardo", "Castro", email = "estatisticocastro@gmail.com", role = c("aut", "cre"))
