@@ -1,6 +1,6 @@
 #' @title Validacao do Cadastro de Pessoas Fisicas
 #'
-#' @description This package predicts whether the stock price at tommorow's market close would be higher or lower compared to today's closing place.
+#' @description This function validade the Brazilian Cadastro de Pessoas Fisicas (CPF).
 #'
 #' @param vetor_cpfs
 #'
