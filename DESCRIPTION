@@ -1,8 +1,8 @@
-Package: ValidarCpfs
-Title: This package resume some useful and idiot functions created by ricardo Castro
+Package: graphic_lp
+Title: This package resume one useful and idiot function created by ricardo Castro
 Version: 0.1
 Authors@R: person("Ricardo", "Castro", email = "estatisticocastro@gmail.com", role = c("aut", "cre"))
-Description: This package contains functions like mensagem_acabou, limpar.dados, plot.aparado, procv, validar_cpf.
+Description: This package contains the function that makes plot of a simple 2 variable linear programing problem
 Depends: R (>= 3.5.2)
 License: What license is it under?
 Encoding: UTF-8
