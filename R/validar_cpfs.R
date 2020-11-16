@@ -12,9 +12,9 @@
 #'
 
 
-#validar_cpfs=function(vetor_cpfs)
-#{
-#  retorno=character(length = length(vetor_cpfs))
+validar_cpfs=function(vetor_cpfs)
+{
+  retorno=character(length = length(vetor_cpfs))
 #  for(i in 1:length(vetor_cpfs))
 #  {
 #    cpf_original=trimws(gsub("/","",gsub("-","",gsub("\\.", "", vetor_cpfs[i]))))
@@ -37,6 +37,6 @@
 #    cpf[length(cpf)]=v2
 #    retorno[i]=ifelse(cpf_original==paste(cpf,collapse=""),"VÁLIDO","INVÁLIDO")
 #  }
-#  return(retorno)
-#}
+  return(retorno)
+}
 
